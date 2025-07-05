@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('../Image/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.container {
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.catalog-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.catalog-grid .style-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.catalog-grid .style-box:hover {
+  transform: scale(1.05);
+}
+
+.catalog-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
