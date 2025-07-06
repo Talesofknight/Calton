@@ -1,0 +1,211 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Baddie Closet - Calton Fashion House</title>
+
+  <!-- Main CSS for Baddie Closet 
+  <link rel="stylesheet" href="../thebaddiecloset/thebaddiecloset.css" />
+
+  <!-- Font Awesome 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Google Font: Urbanist for soft Gen Z style 
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="baddie-wrapper">
+    <h1><i class="fas fa-star"></i> The Baddie Closet</h1>
+    <p class="tagline">Luxury drip for the confident, classy & creative queens.</p>
+
+    <div class="baddie-grid">
+
+      <div class="baddie-card">
+        <img src="../Image/baddie1.jpg" alt="Silk Mini Dress" />
+        <h3>Silk Mini Dress</h3>
+        <p>Ultra-smooth fit. For dinner dates, parties, and Insta flicks.</p>
+      </div>
+
+      <div class="baddie-card">
+        <img src="../Image/baddie2.jpg" alt="Denim Body Hug" />
+        <h3>Denim Body Hug</h3>
+        <p>Curve-friendly denim that hugs like a bestie. Soft, stretch, & street-ready.</p>
+      </div>
+
+      <div class="baddie-card">
+        <img src="../Image/baddie3.jpg" alt="Y2K Crop Set" />
+        <h3>Y2K Crop Set</h3>
+        <p>90s babe aesthetic meets modern drip. For that Instagram baddie energy.</p>
+      </div>
+
+    </div>
+
+    <a href="../index.html" class="back-home"><i class="fas fa-arrow-left"></i> Back to Homepage</a>
+  </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Baddie Closet - Calton Fashion House</title>
+  
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="../style.css" />
+  
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-om1PsRY0ZCw9BBzgc29WPtB94h9Y1FujKdu2zAmuOWEyo4UJxumCk2NmyDcKMBpBqUOErFOJ7pKx8YZjG2fZqw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    body {
+      background: url('../Image/background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+    }
+
+    /* Animations */
+    @keyframes fadeSlideUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeZoom {
+      0% {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .ankara-page {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+      border-radius: 20px;
+      animation: fadeZoom 1s ease forwards;
+    }
+
+    .ankara-page h1 {
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 30px;
+      color: gold;
+      animation: fadeZoom 1s ease forwards;
+    }
+
+    .ankara-page h1 i {
+      margin-right: 10px;
+      color: #ffd700;
+    }
+
+    .tribe-styles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .tribe-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 15px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      animation: fadeSlideUp 0.8s ease forwards;
+    }
+
+    .tribe-card:hover {
+      transform: scale(1.05);
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .tribe-card img {
+      width: 100%;
+      border-radius: 12px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .tribe-card h3 {
+      margin-top: 15px;
+      font-size: 1.5rem;
+      color: #f8f8f8;
+    }
+
+    .tribe-card h3 i {
+      margin-right: 8px;
+      color: gold;
+    }
+
+    .tribe-card p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #ddd;
+    }
+
+    .back-home {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      font-size: 1.2rem;
+      color: #ffd700;
+      text-decoration: underline;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ankara-page">
+    <h1><i class="fas fa-crown"></i>The Baddie Closet</h1>
+
+    <div class="tribe-styles">
+
+      <a href="./silkMiniDress/SilkminiDress.html">
+        <div class="tribe-card">
+          <img src="../Image/baddie1.jpg" alt="Silk Mini Dress"  />
+          <h3><i class="fas fa-drum"></i>Silk Mini Dress</h3>
+          <p>Ultra-smooth fit. For dinner dates, parties, and Insta flicks.</p>
+        </div>
+      </a>
+
+        <a href="#">
+      <div class="tribe-card">
+        <img src="../Image/baddie2.jpg" alt="Denim Body Hug" />
+        <h3>Denim Body Hug</h3>
+        <p>Curve-friendly denim that hugs like a bestie. Soft, stretch, & street-ready.</p>
+      </div>
+      </a>
+
+      <a href="#">
+      <div class="tribe-card">
+       <img src="../Image/baddie3.jpg" alt="Y2K Crop Set" />
+        <h3>Y2K Crop Set</h3>
+        <p>90s babe aesthetic meets modern drip. For that Instagram baddie energy.</p>
+      </div>
+      </a>
+
+    </div>
+
+    <a href="../index.html" class="back-home"><i class="fas fa-arrow-left"></i> Back to Homepage</a>
+  </div>
+</body>
+</html>
+
